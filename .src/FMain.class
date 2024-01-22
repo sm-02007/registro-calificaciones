@@ -13,3 +13,9 @@ Public Sub bot_inicio_Click()
   Registro.Show
 
 End
+
+Public Sub Form_Open()
+
+  Print ("hola mundo")
+
+End
