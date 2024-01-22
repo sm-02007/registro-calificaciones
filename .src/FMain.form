@@ -1,0 +1,21 @@
+# Gambas Form File 3.0
+
+{ Form Form
+  Move(0,0,512,512)
+  #Scaled = False
+  Resizable = False
+  Sticky = True
+  { Label1 Label
+    Move(168,72,168,96)
+    Font = Font["+7"]
+    Text = ("Bienvenido")
+  }
+  { bot_inicio Button
+    Move(184,248,128,32)
+    Text = ("Iniciar")
+  }
+  { bot_salir Button
+    Move(184,336,128,32)
+    Text = ("Salir")
+  }
+}

@@ -1,0 +1,141 @@
+# Gambas Form File 3.0
+
+{ Form Form
+  Move(0,0,512,512)
+  #Scaled = False
+  Resizable = False
+  { txt_Alumno TextBox
+    Move(216,40,192,40)
+  }
+  { lab_alumno Label
+    Move(112,48,96,24)
+    Font = Font["+4"]
+    Text = ("Alumno:")
+  }
+  { val_1 ValueBox
+    Move(216,136,48,32)
+    Text = ("a")
+    Alignment = Align.Center
+  }
+  { val_2 ValueBox
+    Move(216,184,48,32)
+    Alignment = Align.Center
+  }
+  { val_3 ValueBox
+    Move(216,232,48,32)
+    Alignment = Align.Center
+  }
+  { val_4 ValueBox
+    Move(216,280,48,32)
+    Alignment = Align.Center
+  }
+  { val_5 ValueBox
+    Move(216,328,48,32)
+    Alignment = Align.Center
+  }
+  { val_6 ValueBox
+    Move(216,376,48,32)
+    Alignment = Align.Center
+  }
+  { Label1 Label
+    Move(208,96,64,24)
+    Font = Font["+2"]
+    Alignment = Align.Center
+    Text = ("Nota")
+  }
+  { Label3 Label
+    Move(352,96,112,24)
+    Font = Font["+2"]
+    Alignment = Align.Center
+    Text = ("Observacion")
+  }
+  { Label4 Label
+    Move(64,96,64,24)
+    Font = Font["+2"]
+    Alignment = Align.Center
+    Text = ("Materia")
+  }
+  { bot_guardar Button
+    Move(176,424,128,32)
+    Text = ("Guardar")
+  }
+  { Label2 Label
+    Move(56,136,80,32)
+    Text = ("Matematica")
+  }
+  { Label5 Label
+    Move(56,280,80,32)
+    Alignment = Align.Center
+    Text = ("Ciencia")
+  }
+  { Label6 Label
+    Move(56,232,80,32)
+    Alignment = Align.Center
+    Text = ("Lengua")
+  }
+  { Label7 Label
+    Move(56,184,80,32)
+    Text = ("Geoografia")
+  }
+  { Label8 Label
+    Move(56,328,80,32)
+    Alignment = Align.Center
+    Text = ("Historia")
+  }
+  { Label9 Label
+    Move(56,376,80,32)
+    Alignment = Align.Center
+    Text = ("ingles")
+  }
+  { lab_obv1 Label
+    Move(368,136,88,24)
+    AutoResize = True
+    Alignment = Align.TopNormal
+    Border = Border.Plain
+    BorderWidth = 3
+    Text = ("· · · · · · · · · · · ·")
+  }
+  { lab_obv2 Label
+    Move(368,184,88,24)
+    AutoResize = True
+    Alignment = Align.TopNormal
+    Border = Border.Plain
+    BorderWidth = 3
+    Text = ("· · · · · · · · · · · ·")
+  }
+  { lab_obv3 Label
+    Move(368,232,88,24)
+    AutoResize = True
+    Alignment = Align.TopNormal
+    Border = Border.Plain
+    BorderWidth = 3
+    Text = ("· · · · · · · · · · · ·")
+  }
+  { lab_obv4 Label
+    Move(368,280,88,24)
+    AutoResize = True
+    Alignment = Align.TopNormal
+    Border = Border.Plain
+    BorderWidth = 3
+    Text = ("· · · · · · · · · · · ·")
+  }
+  { lab_obv5 Label
+    Move(368,328,88,24)
+    AutoResize = True
+    Alignment = Align.TopNormal
+    Border = Border.Plain
+    BorderWidth = 3
+    Text = ("· · · · · · · · · · · ·")
+  }
+  { lab_obv6 Label
+    Move(368,376,88,24)
+    AutoResize = True
+    Alignment = Align.TopNormal
+    Border = Border.Plain
+    BorderWidth = 3
+    Text = ("· · · · · · · · · · · ·")
+  }
+  { lab_prom Label
+    Move(48,472,432,24)
+  }
+}

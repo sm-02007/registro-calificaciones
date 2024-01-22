@@ -1,0 +1,202 @@
+' Gambas class file
+
+Public Sub val_1_Change()
+  
+  If (CInt(val_1.text) < 0) & (CInt(val_1.Text) > 10) Then 
+    Message.Warning("nota no valida")
+  Endif
+  
+End
+
+Public Sub val_2_Change()
+  
+  If (CInt(val_2.text) < 0) & (CInt(val_2.Text) > 10) Then 
+    Message.Warning("nota no valida")
+  Endif
+  
+End
+
+Public Sub val_3_Change()
+  
+  If (CInt(val_3.text) < 0) & (CInt(val_3.Text) > 10) Then 
+    Message.Warning("nota no valida")
+  Endif
+  
+End
+
+Public Sub val_4_Change()
+  
+  If (CInt(val_4.text) < 0) & (CInt(val_4.Text) > 10) Then 
+    Message.Warning("nota no valida")
+  Endif
+  
+End
+
+Public Sub val_5_Change()
+  
+  If (CInt(val_5.text) < 0) & (CInt(val_5.Text) > 10) Then 
+    Message.Warning("nota no valida")
+  Endif
+  
+End
+
+Public Sub val_6_Change()
+  
+  If (CInt(val_6.text) < 0) & (CInt(val_6.Text) > 10) Then 
+    Message.Warning("nota no valida")
+  Endif
+  
+End
+
+Public Sub bot_guardar_Click()
+
+  Dim promedio As Float
+  Dim nota_1 As Integer
+  Dim nota_2 As Integer
+  Dim nota_3 As Integer
+  Dim nota_4 As Integer
+  Dim nota_5 As Integer
+  Dim nota_6 As Integer
+  Dim ob_fin As String
+ 
+     If (CInt(val_1.Text) >= 0) & (CInt(val_1.Text) <= 6) Then 
+    lab_obv1.Text = "Desaprobado"
+    lab_obv1.Background = &HFFFFFF
+    lab_obv1.Foreground = &FF0000
+    lab_obv1.BorderColor = &FF0000
+  Endif
+  
+ 
+  If (CInt(val_1.text) >= 7) & (CInt(val_1.Text) >= 9) Then 
+    lab_obv1.Text = "Muy Bien"
+    lab_obv1.Background = &HFFFFFF
+    lab_obv1.Foreground = &00FF00
+    lab_obv1.BorderColor = &00FF00
+    
+  Endif 
+  If CInt(val_1.Text) == 10 Then 
+    lab_obv1.Text = "Excelente"
+    lab_obv1.Background = &HFFFFFF
+    lab_obv1.Foreground = &FFC71F
+    lab_obv1.BorderColor = &FFC71F
+  Endif 
+  
+  If (CInt(val_2.Text) >= 0) & (CInt(val_2.Text) <= 6) Then 
+    lab_obv2.Text = "Desaprobado"
+    lab_obv2.Background = &HFFFFFF
+    lab_obv2.Foreground = &FF0000
+    lab_obv2.BorderColor = &FF0000
+  Endif
+  If (CInt(val_2.text) >= 7) & (CInt(val_2.Text) >= 9) Then 
+    lab_obv2.Text = "Muy Bien"
+    lab_obv2.Background = &HFFFFFF
+    lab_obv2.Foreground = &00FF00
+    lab_obv2.BorderColor = &00FF00
+    
+  Endif 
+  If CInt(val_2.Text) == 10 Then 
+    lab_obv2.Text = "Excelente"
+    lab_obv2.Background = &HFFFFFF
+    lab_obv2.Foreground = &FFC71F
+    lab_obv2.BorderColor = &FFC71F
+  Endif 
+  
+  If (CInt(val_3.Text) >= 0) & (CInt(val_3.Text) <= 6) Then 
+    lab_obv3.Text = "Desaprobado"
+    lab_obv3.Background = &HFFFFFF
+    lab_obv3.Foreground = &FF0000
+    lab_obv3.BorderColor = &FF0000
+  Endif
+  If (CInt(val_3.text) >= 7) & (CInt(val_3.Text) >= 9) Then 
+    lab_obv3.Text = "Muy Bien"
+    lab_obv3.Background = &HFFFFFF
+    lab_obv3.Foreground = &00FF00
+    lab_obv3.BorderColor = &00FF00
+    
+  Endif 
+  If CInt(val_3.Text) == 10 Then 
+    lab_obv3.Text = "Excelente"
+    lab_obv3.Background = &HFFFFFF
+    lab_obv3.Foreground = &FFC71F
+    lab_obv3.BorderColor = &FFC71F
+  Endif 
+  
+  If (CInt(val_4.Text) >= 0) & (CInt(val_4.Text) <= 6) Then 
+    lab_obv4.Text = "Desaprobado"
+    lab_obv4.Background = &HFFFFFF
+    lab_obv4.Foreground = &FF0000
+    lab_obv4.BorderColor = &FF0000
+  Endif
+  If (CInt(val_4.text) >= 7) & (CInt(val_4.Text) >= 9) Then 
+    lab_obv4.Text = "Muy Bien"
+    lab_obv4.Background = &HFFFFFF
+    lab_obv4.Foreground = &00FF00
+    lab_obv4.BorderColor = &00FF00
+    
+  Endif 
+  If CInt(val_4.Text) == 10 Then 
+    lab_obv4.Text = "Excelente"
+    lab_obv4.Background = &HFFFFFF
+    lab_obv4.Foreground = &FFC71F
+    lab_obv4.BorderColor = &FFC71F
+  Endif 
+  
+  If (CInt(val_5.Text) >= 0) & (CInt(val_5.Text) <= 6) Then 
+    lab_obv5.Text = "Desaprobado"
+    lab_obv5.Background = &HFFFFFF
+    lab_obv5.Foreground = &FF0000
+    lab_obv5.BorderColor = &FF0000
+  Endif
+  If (CInt(val_5.text) >= 7) & (CInt(val_5.Text) >= 9) Then 
+    lab_obv5.Text = "Muy Bien"
+    lab_obv5.Background = &HFFFFFF
+    lab_obv5.Foreground = &00FF00
+    lab_obv5.BorderColor = &00FF00
+    
+  Endif 
+  If CInt(val_5.Text) == 10 Then 
+    lab_obv5.Text = "Excelente"
+    lab_obv5.Background = &HFFFFFF
+    lab_obv5.Foreground = &FFC71F
+    lab_obv5.BorderColor = &FFC71F
+  Endif 
+  
+  If (CInt(val_6.Text) >= 0) & (CInt(val_6.Text) <= 6) Then 
+    lab_obv6.Text = "Desaprobado"
+    lab_obv6.Background = &HFFFFFF
+    lab_obv6.Foreground = &FF0000
+    lab_obv6.BorderColor = &FF0000
+  Endif
+  If (CInt(val_6.text) >= 7) & (CInt(val_6.Text) >= 9) Then 
+    lab_obv6.Text = "Muy Bien"
+    lab_obv6.Background = &HFFFFFF
+    lab_obv6.Foreground = &00FF00
+    lab_obv6.BorderColor = &00FF00
+    
+  Endif 
+  If CInt(val_6.Text) == 10 Then 
+    lab_obv6.Text = "Excelente"
+    lab_obv6.Background = &HFFFFFF
+    lab_obv6.Foreground = &FFC71F
+    lab_obv6.BorderColor = &FFC71F
+  Endif 
+  
+  nota_1 = CInt(val_1.Text)
+  nota_2 = CInt(val_2.Text)
+  nota_3 = CInt(val_3.Text)
+  nota_4 = CInt(val_4.Text)
+  nota_5 = CInt(val_5.Text)
+  nota_6 = CInt(val_6.Text)
+  
+  promedio = (nota_1 + nota_2 + nota_3 + nota_4 + nota_5 + nota_6) / 6
+  If promedio <= 6 Then 
+    ob_fin = "Desaprobado"
+  Endif
+  If (promedio >= 7) & (promedio <= 10) Then 
+    ob_fin = "Aprobado"
+  Endif
+  
+  
+  lab_prom.text = "El estudiante: " & txt_Alumno.Text & ", esta " & ob_fin & " con un promedio de: " & promedio 
+  
+End 

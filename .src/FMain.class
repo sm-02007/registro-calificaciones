@@ -1,0 +1,15 @@
+' Gambas class file
+
+
+Public Sub bot_salir_Click()
+FMain.Close
+  
+
+End
+
+Public Sub bot_inicio_Click()
+
+  FMain.close 
+  Registro.Show
+
+End
