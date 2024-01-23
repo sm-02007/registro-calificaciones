@@ -7,4 +7,7 @@ Component=gb.gui
 Component=gb.form
 Component=gb.db
 Component=gb.db.form
+Component=gb.db.mysql
+TabSize=2
+Language=es_AR
 Packager=1
